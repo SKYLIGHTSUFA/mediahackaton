@@ -1,7 +1,6 @@
 import customtkinter as ctk
 import os
 import cv2
-from PIL import Image
 import speech_recognition as sr
 import pyttsx3
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
