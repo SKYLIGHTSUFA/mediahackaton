@@ -6,7 +6,7 @@ ____
 
 ## Реализация модели
 
-[![Watch the video]([https://i.stack.imgur.com/Vp2cE.png](https://github.com/SKYLIGHTSUFA/mediahackaton/blob/main/data/mascor_test0.png?raw=true))](https://github.com/SKYLIGHTSUFA/mediahackaton/blob/main/data/animation.gif.mp4)
+[![Watch the video]([https://i.stack.imgur.com/Vp2cE.png](https://github.com/SKYLIGHTSUFA/mediahackaton/blob/main/data/mascor_test0.png))](https://github.com/SKYLIGHTSUFA/mediahackaton/blob/main/data/animation.gif.mp4)
 
 
 
