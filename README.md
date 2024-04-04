@@ -6,7 +6,6 @@ ____
 
 ## Реализация модели
 
-<video src='' width=180/>
 [![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://github.com/SKYLIGHTSUFA/mediahackaton/blob/main/data/animation.gif.mp4)
 
 ![f](https://github.com/SKYLIGHTSUFA/UfaHack2024/blob/main/c4715817-515e-4815-aa0d-bfcc75d45388.jfif)
