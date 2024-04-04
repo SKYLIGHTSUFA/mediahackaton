@@ -1,6 +1,6 @@
-# UfaHack2024
-<img src="https://images.squarespace-cdn.com/content/v1/6201920e5d62b32f53d158bb/1646055024414-55O3Y8GPH2DM30WXAWVM/Screen%2BShot%2B2021-11-18%2Bat%2B1.18.40%2BPM.png" alt="Face" width="10%" height="10%">
-Hackaton UfaHack2024 in UFA
+# Mediakhackaton2024
+<img src="https://sun9-59.userapi.com/impg/2Jt9OF-tcZDQxfK1WoZlvg5rG8p9CYSh3rH7Hg/i-OIT781xaE.jpg?size=2160x2160&quality=95&sign=feb198246f35dbb363a1a867418a33b7&type=album" alt="Face" width="10%" height="10%">
+Hackaton МедиаХакатон ЭМИТ — 2024 Moscow
 
 ____
 
