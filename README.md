@@ -10,74 +10,23 @@ ____
 
 
 
-## Программный продукт создан с помощью фреймворка для Python Socket, CatBoost, CustomTkinter, а также приложение написанное на Kotin для клиента на Android
+## Программный продукт создан с помощью фреймворка для Python SpeechRecognition, CustomTkinter, stable deffusion, opencv-python и transformers
 
-+ Реализация с CUDA технологиями    
-+ Андройд приложение    
-+ Классифкатор на основе градиентного бустинга    
-+ Очищенный и подготовленный датасет    
-+ Возможность работать удаленно    
-+ Возможность обработки в реальном времени    
++ Реализация с CUDA технологиями       
++ Использование моделей im2video для анимирование 2д изображения
++ Возможность обработки в реальном времени
++ Использование модели rugpt для генерации ответов на вопросы на тему кулинарии
++ Возможности использования микрофона для общения в реальном времени      
 
-## Gold features  
-+ Алгоритм определения "замыленных" фотографий opencv методами
-+ Очистка датасета от фотографий, где присутствует более 2 человек
-+ Пакетная обработка видео, ускоряющее обнаружениие лица на одном кадре за 5ms
-+ Выделение face embeddings моделью facenet, которые используются для классификации человека алгоритмом градиентного бустинга "catboost"
-+ Обучение нескольких моделей для разных категорий  
 ## Установка зависимостей    
 ```
-pip install catboost, customtkinter, deepface, socket, opencv-python, opencv-contrib-python, pandas, imutils, mtcnn
+pip install customtkinter, transformers, pyttsx3, SpeechRecognition, opencv-python, opencv-contrib-python,  
 ```
 ## Quick start    
 
-``` git clone https://github.com/SKYLIGHTSUFA/UfaHack2024.git    
-cd UfaHack2024 
-cd notebooks/apps
+``` git clone https://github.com/SKYLIGHTSUFA/mediahackaton.git
+cd mediahackaton 
+cd apps
 python main.py
 ```
-  
-
-### Код реализации сервера 
-```python
-import socket
-
-s = socket.socket()
-host = "192.168.120.244"
-port = 12345
-s.bind((host, port))
-s.listen(5)
-
-while True:
-    con, addr = s.accept()
-    with open('FDJ.jpg', 'wb') as f:
-        while True:
-            print(1)
-            data = con.recv(4096)
-            if not data:
-                break
-            f.write(data)
-    con.close()
-
-```
-
-### Код реализации клиента
-```python
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-s.connect(('192.168.120.244', 12345)) # Подключаемся к серверу.
-s.sendall('Hello, Habr!'.encode('utf-8')) # Отправляем фразу.
-data = s.recv(1024) # Получаем данные из сокета.
-print(data.decode())
-while True:
-    data = s.recv(4096)
-    if not data:
-        break
-    print("Received response: " + data.decode())
-
-s.close()
-```
-Для обучения модели исползовали [CatBoost](https://catboost.ai/)
 
