@@ -5,6 +5,9 @@ Hackaton МедиаХакатон ЭМИТ — 2024 Moscow
 ____
 
 ## Реализация модели
+
+<video src='https://github.com/SKYLIGHTSUFA/mediahackaton/blob/main/data/animation.gif.mp4' width=180/>
+
 ![f](https://github.com/SKYLIGHTSUFA/UfaHack2024/blob/main/c4715817-515e-4815-aa0d-bfcc75d45388.jfif)
 
 
